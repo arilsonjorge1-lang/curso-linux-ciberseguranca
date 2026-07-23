@@ -1,0 +1,15 @@
+# Chaves privadas e credenciais — nunca devem ir para o repositório
+*.pem
+id_rsa
+id_ed25519
+id_ed25519.pub
+*_rsa
+*_ed25519
+.ssh/
+
+# Ficheiros de sistema
+.DS_Store
+Thumbs.db
+
+# Logs completos (guardar só excertos relevantes nos README)
+*.log
