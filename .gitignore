@@ -1,4 +1,4 @@
-# Chaves privadas e credenciais — nunca devem ir para o repositório
+# Private keys and credentials — must never go into the repository
 *.pem
 id_rsa
 id_ed25519
@@ -7,9 +7,9 @@ id_ed25519.pub
 *_ed25519
 .ssh/
 
-# Ficheiros de sistema
+# System files
 .DS_Store
 Thumbs.db
 
-# Logs completos (guardar só excertos relevantes nos README)
+# Full logs (keep only relevant excerpts in the README files)
 *.log
