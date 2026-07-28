@@ -1,0 +1,17 @@
+# sshd_config — cópia limpa pós-hardening (Sessão 06)
+# Alterações aplicadas relativamente à configuração por defeito:
+#
+#   PermitRootLogin no
+#   PasswordAuthentication no
+#   Port 2222
+#
+# Substitui este ficheiro pelo output real de:
+#   sudo cat /etc/ssh/sshd_config
+# antes do commit final, para incluir o ficheiro de configuração
+# completo e atual do servidor (sem dados sensíveis, ex: sem
+# HostKey privadas coladas aqui).
+
+Port 2222
+PermitRootLogin no
+PasswordAuthentication no
+Subsystem sftp internal-sftp
